@@ -1,5 +1,5 @@
 # BMI Calculator
-<a href="https://bmi-calculator-main.vercel.app/" target = "_blank">Test site</a>
+<a href="https://bmi-calculator-main.vercel.app/" target = "_blank">Live demo</a>
 
 ## Info
 <li>Simple yet modern <i>BMI calculator</i></li>
