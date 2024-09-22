@@ -1,4 +1,10 @@
-/* Reset some default styles */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -54,7 +60,12 @@ html, body {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 1rem;   
+}
+
+/* More subtle focus outline */
+.input-group input:focus {
+    outline: 1px solid rgba(18, 113, 255, 0.518);
 }
 
 /* Button styling */
