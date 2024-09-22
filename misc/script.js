@@ -9,8 +9,8 @@ function calculateBMI() {
     } else { // if input is valid calculate!
         var weight = document.getElementById('weight').value;
         var height = document.getElementById('height').value;
-        console.log((weight / (height * height)) * 703);
-        document.getElementById("result").innerHTML = "Your BMI is " + (weight / (height * height)) * 703 + " lbs";
+        console.log(Math.round((weight / (height * height)) * 703));
+        document.getElementById("result").innerHTML = "Your BMI is " + Math.round((weight / (height * height)) * 703) + " lbs";
         document.getElementById("result").style.color = "#333";
     }
 }
